@@ -1,0 +1,25 @@
+
+               #Build YOUR LOGIC 
+
+#Write a program to count no of Vowels in sentence or in a word.
+
+#make input source to get word or sentence from user.
+user_input = input(" Write hear a word or a sentence to check no of Vowels in it: ")
+
+#create a loop to get 1 word from user_input at one time
+
+count = 0 #Initialize your count
+
+for val in user_input:
+    
+    #write condition to check
+    if ( val == "a" or val == "e"or val == "i"or val == "o"or val == "u" ):
+        
+       # increase your count if condition is true
+        count += 1
+ 
+        
+#finally print your result                      
+print(f"You have finally {count} Vowels in your Input.")
+
+         #Try this code in your code editor😍😍
